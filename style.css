@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  margin: 34px 24px 40px 24px;
+  margin: 14px 24px 40px 24px;
 }
 
 #text-name {
@@ -135,7 +135,7 @@ body {
   
 }
 
-@media screen and (max-height: 414px)  {
+@media screen and (max-height: 414px) and (min-height: 360px)  {
  #menu-img {
     justify-content: end;
     background: transparent;
@@ -151,7 +151,7 @@ body {
     background-color: #2c243b;
     padding-top: 1.6rem;
     text-align: end;
-    width: 71.6vw;
+    width: 72vw;
     height: 78vh;
     margin-left: 5rem;
     border-radius: 15px 0 0 15px ;
