@@ -137,6 +137,10 @@ body {
   
 }
 
+/* --------------------------------------- */
+/*  brekpoints para diversos dispositivos  */
+/* --------------------------------------- */
+
 @media screen and (max-width: 414px) and (min-width: 360px)  {
  #menu-img {
   justify-content: end;
@@ -221,10 +225,10 @@ body {
     position: static;
   
   }
+}
 
-  
 
-  @media screen and (min-width: 410px) and (max-width: 480px) {
+@media screen and (min-width: 410px) and (max-width: 480px) {
     #menu-img {
       justify-content: end;
       background: transparent;
@@ -315,5 +319,5 @@ body {
   
     }
   
-  }
 }
+
