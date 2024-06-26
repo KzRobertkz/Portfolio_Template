@@ -227,13 +227,13 @@ body {
   @media screen and (min-height: 410px)  {
     #menu-img {
       justify-content: end;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    margin-left: 7.6rem;
-    margin-top: 1.5rem;
-    color: #f5f6f6;
-    font-size: 40px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      margin-left: 7.6rem;
+      margin-top: 1.5rem;
+      color: #f5f6f6;
+      font-size: 40px;
     }
   
     .mobile-menu-list {
