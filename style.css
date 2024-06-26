@@ -137,7 +137,7 @@ body {
   
 }
 
-@media screen and (max-height: 414px) and (min-height: 360px)  {
+@media screen and (max-width: 414px) and (min-width: 360px)  {
  #menu-img {
   justify-content: end;
   background: transparent;
@@ -224,13 +224,13 @@ body {
 
   
 
-  @media screen and (min-height: 410px)  {
+  @media screen and (min-width: 410px) and (max-width: 480px) {
     #menu-img {
       justify-content: end;
       background: transparent;
       border: none;
       cursor: pointer;
-      margin-left: 7.6rem;
+      margin-left: 9.5rem;
       margin-top: 1.5rem;
       color: #f5f6f6;
       font-size: 40px;
@@ -242,7 +242,7 @@ body {
       background-color: #2c243b;
       padding-top: 1.6rem;
       text-align: end;
-      width: 74vw;
+      width: 74.9vw;
       height: 61vh;
       margin-left: 5rem;
       border-radius: 15px 0 0 15px ;
